@@ -1,2 +1,2 @@
 # OIBSIP
-All the tasks performed for Tech Internship at Oasis Infobyte.
+All the tasks performed for Web Development and Desinging Internship.
