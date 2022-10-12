@@ -3,6 +3,6 @@ This repository contains all the projects associated with Web Development and De
 
 You can view my work on this link :-  https://riteshgaigawali.github.io/OIBSIP/
 
-You can apply for this internship on https://oasisinfobyte.com/#features to get a handson expirience in this domain.
+You can apply for this internship on https://oasisinfobyte.com/#features to get a hands-on experience in this domain.
 
 ![Certificate](https://user-images.githubusercontent.com/74554589/195435020-53596be7-8784-4349-acd9-96079398bd2f.jpg)
