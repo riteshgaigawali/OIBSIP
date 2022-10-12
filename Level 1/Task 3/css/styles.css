@@ -1,0 +1,106 @@
+/* Basic Page Setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+/* Setting up the container */
+.container {
+  background: #6e33d1;
+  height: 350px;
+  width: 600px;
+  border-radius: 12px;
+  position: relative;
+}
+/* Setting immage of Deadpool */
+img {
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  transform: translate(45%);
+  z-index: 1;
+  transition: 0.5s;
+}
+.container:hover img {
+  transform: translate(365px) scale(1.2);
+}
+/* Setting the content */
+.content {
+  position: relative;
+  width: 50%;
+  top: 10%;
+  left: 8%;
+  color: mintcream;
+  transform: translate(40%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.container:hover .content {
+  opacity: 1;
+  transform: translate(0);
+}
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-family: sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+.content a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  padding: 15px 30px;
+  margin: 15px;
+}
+/* Setting the main content */
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.input {
+  flex: 1 1 40%;
+  margin: 15px;
+  appearance: none;
+  background: none;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
